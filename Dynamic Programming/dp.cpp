@@ -19,7 +19,7 @@ int tabulation(int n){
   }
   return dp[n];
 }
-int frogJump(vector<int> heigth){ // This is by using tabulation
+int frogJump(vector<int> height){ // This is by using tabulation
   int n = height.size();
   vector<int> dp(n, 0);
   dp[0] = 0;
@@ -29,7 +29,7 @@ int frogJump(vector<int> heigth){ // This is by using tabulation
   }
   return dp[n-1];
 }
-int frogJump(vector<int> heigth){ // This is by using tabulation by spaceOptimization
+int frogJump(vector<int> height){ // This is by using tabulation by spaceOptimization
   int n = height.size();
   int prev2 = 0;
   int prev1 = 0;
@@ -42,7 +42,7 @@ int frogJump(vector<int> heigth){ // This is by using tabulation by spaceOptimiz
   }
   return prev1;
 }
-int frogJump(vector<int> heigth){ // this is by using memoization
+int frogJump(vector<int> height){ // this is by using memoization
   int n = height.size();
   vector<int> dp(n, -1);
   // this is a lembda function
