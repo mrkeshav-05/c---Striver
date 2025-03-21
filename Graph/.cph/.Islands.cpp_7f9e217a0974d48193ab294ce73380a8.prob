@@ -1,0 +1,1 @@
+{"name":"Local: Islands","url":"/Users/keshavthakur/Documents/ c++ Striver/Graph/Islands.cpp","tests":[{"id":1737802263614,"input":"4\n5\n1 1 1 1 1\n0 0 0 0 0\n1 1 1 1 1\n0 0 0 0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/keshavthakur/Documents/ c++ Striver/Graph/Islands.cpp","group":"local","local":true}
